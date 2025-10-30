@@ -49,7 +49,7 @@ pub enum Source {
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Board {
     pub height: u64,
-    pub weight: Option<u64>,
+    pub width: u64,
     pub food: Vec<Coord>,
     pub hazards: Vec<Coord>,
     pub snakes: Vec<BattleSnake>,
