@@ -71,7 +71,7 @@ pub struct MoveAction {
     pub shout: Option<String>,
 }
 
-#[derive(Debug, Serialize, Deserialize, Clone, Copy)]
+#[derive(Debug, Serialize, Deserialize, Clone, Copy, PartialEq)]
 #[serde(rename_all = "lowercase")]
 pub enum Action {
     Up,
