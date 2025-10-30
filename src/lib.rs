@@ -161,8 +161,8 @@ impl Coord {
 
 #[derive(Debug, Serialize, Deserialize, PartialEq, PartialOrd, Eq, Ord, Clone, Copy)]
 pub struct Distance {
-    x: i32,
-    y: i32,
+    pub x: i32,
+    pub y: i32,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
